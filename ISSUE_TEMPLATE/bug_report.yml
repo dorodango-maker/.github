@@ -1,0 +1,32 @@
+name: バグ報告
+description: バグり散らかしている場合はこちら
+title: '[Bug]: '
+labels: [":bug: bug"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 何がバグってるん？
+      description: |
+        フロント部分ならスクショか動画plz
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 再現手順
+      description: こんがらかりそうな場合
+      value: |
+        1. 
+        2. 
+        3. 
+        ...
+  - type: textarea
+    id: log
+    attributes:
+      label: ログ
+      description: エラーログ貼っておくとハッピー
+  - type: textarea
+    id: supplement
+    attributes:
+      label: その他

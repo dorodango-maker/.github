@@ -1,0 +1,31 @@
+name: 問い合わせ
+description: 問い合わせはこちら
+title: '[問い合わせ]: '
+labels: [":mailbox_with_mail: 問い合わせ"]
+body:
+  - type: input
+    id: from
+    attributes:
+      label: 誰から
+      description: 誰からの問い合わせか記載してください。
+    validations:
+      required: true
+  - type: input
+    id: due_date
+    attributes:
+      label: いつまで
+      description: いつまでに対応するか記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 問い合わせ内容
+      description: 問い合わせ内容を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: やること
+      description: このissueの範囲でやることを記載してください。

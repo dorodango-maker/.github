@@ -1,0 +1,10 @@
+name: ナレッジ・ドメイン知識
+description: ドメイン知識・ナレッジはこちら
+title: '[ナレッジ]: '
+labels: [":book: ナレッジ"]
+body:
+  - type: textarea
+    id: content
+    attributes:
+      label: 概要
+      description: ナレッジの概要を記載してください。

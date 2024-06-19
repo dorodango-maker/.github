@@ -1,0 +1,23 @@
+name: リファクタリング
+description: 本当に改善する意思がある場合はこちらから
+title: '[リファクタ]: '
+labels: [":+1: リファクタ"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: リファクタリングする理由を記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: やること
+      description: このissueの範囲でやることを記載してください。
+    validations:
+      required: true
+  - type: textarea
+    id: supplement
+    attributes:
+      label: その他
