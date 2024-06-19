@@ -1,7 +1,7 @@
 name: ナレッジ・ドメイン知識
 description: ドメイン知識・ナレッジはこちら
 title: '[ナレッジ]: '
-labels: [":book: ナレッジ"]
+labels: ["good first issue"]
 body:
   - type: textarea
     id: content

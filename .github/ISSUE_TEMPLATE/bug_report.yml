@@ -1,7 +1,7 @@
 name: バグ報告
 description: バグり散らかしている場合はこちら
 title: '[Bug]: '
-labels: [":bug: bug"]
+labels: ["bug"]
 body:
   - type: textarea
     id: overview

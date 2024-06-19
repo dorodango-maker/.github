@@ -1,7 +1,7 @@
 name: 問い合わせ
 description: 問い合わせはこちら
 title: '[問い合わせ]: '
-labels: [":mailbox_with_mail: 問い合わせ"]
+labels: ["question"]
 body:
   - type: input
     id: from
